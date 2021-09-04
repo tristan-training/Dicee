@@ -71,4 +71,16 @@ img.dice {
   body {
     font-size: 0.65em;
   }
+
+  #dice-section {
+    padding: 4% 9%;
+  }
+
+  #footer {
+    padding-bottom: 3%;
+  }
+
+  img.dice {
+    width: 50%;
+  }
 }
