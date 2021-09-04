@@ -1,0 +1,74 @@
+/********************************** global ********************************************/
+* {
+  margin: 0;
+}
+
+/********************************* tag specific **************************************/
+
+body {
+  background-color: #334756;
+  color: #7fc8a9c0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "Indie Flower", cursive;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+a {
+  color: #7fc8a9c0;
+  font-size: 1.3em;
+}
+
+a:hover {
+  color: #d5eebbc0;
+}
+
+/*************************** class specific *******************************************/
+
+div.dice-layout {
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 100%;
+}
+
+h2.player-text {
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+
+img.dice {
+  width: 80%;
+}
+
+/*************************** id specific ******************************************************/
+
+#title {
+  padding-top: 3%;
+
+  font-family: "Lobster", cursive;
+}
+
+#dice-section {
+  padding: 7% 15%;
+}
+
+#footer {
+  padding-bottom: 5%;
+}
+
+/******************************** media section ****************************************************/
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 0.65em;
+  }
+}
